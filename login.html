@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <img src="Screenshot (65).png" alt="">
+        <div class="login-page">
+            <div class="home">
+                <h1>Login to LINEN</h1>
+                <a href="index.html">x</a>
+            </div>
+            <div class="div">
+                Email <br><input type="email" id="emailInput" class="mail" placeholder="email" required><br>
+                <p id="emailError" class="error"></p>
+            </div>
+            <div class="div">
+                Password <br><input type="password" id="passwordInput" class="mail" placeholder="password" required>
+                <p id="passwordError" class="error"></p>
+            </div>
+            <div class="forgot">
+                <div class="check">
+                    <input type="checkbox" id="keepSignedIn">Keep me signed in
+                </div>   
+                <p>Forgotten password?</p>
+            </div>
+            <button id="login">Login</button>
+            <p>or</p><br>
+            <div class="btngroup">
+                <div class="btng1">
+                    <button id="fb">Facebook</button>
+                    <button id="g">Google</button>
+                </div>
+                <div class="btng2">
+                    <button id="lin">LinkedIn</button>
+                    <button id="tt">Twitter</button>
+                </div>
+            </div>
+            <div class="group">
+                <p>Don't you have an account?</p>
+                <a href="signup.html" id="group">Register</a>
+            </div>
+        </div>
+    </div>
+<script src="login.js"></script>    
+</body>
+</html>

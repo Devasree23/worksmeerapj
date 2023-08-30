@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <!-- <div class="container">
+        <img src="Screenshot (65).png" alt="">
+        <div class="login-page">
+            <div class="home">
+                <h1>Create a LINEN account</h1>
+                <a href="index.html" >x</a>
+            </div>
+            <div class="btng1">
+                first name <br><input type="text"  placeholder="first name"><br>
+                last name <br><input type="text"  placeholder="second name"><br>
+            </div>
+            <div class="div">
+                Email <br><input type="email" class="mail" placeholder="email"><br>
+            </div>
+            <div class="div">
+                Password <br><input type="password" class="mail" placeholder="password">
+            </div>
+            <div class="div">
+               Confirm Password <br><input type="password" class="mail" placeholder=" Confirm password">
+            </div>
+            <div class="check">
+                <input type="checkbox"> you accept our Terms and Conditions and Privacy Policy
+            </div> 
+            <button id="login">Register now</button>  
+            <div class="group">
+                <p>Already have an account?</p>
+                <a href="login.html"  id="group">login</a>
+            </div>
+        </div>    
+    </div> -->
+
+    <div class="container">
+        <img src="Screenshot (65).png" alt="">
+        <div class="login-page">
+            <div class="home">
+                <h1>Create a LINEN account</h1>
+                <a href="index.html">x</a>
+            </div>
+            <div class="btng1">
+                First Name <br><input type="text" id="firstNameInput" placeholder="First Name" required><br>
+                Last Name <br><input type="text" id="lastNameInput" placeholder="Last Name" required><br>
+            </div>
+            <div class="div">
+                Email <br><input type="email" id="emailInput" class="mail" placeholder="Email" required><br>
+                <p id="emailError" class="error"></p>
+            </div>
+            <div class="div">
+                Password <br><input type="password" id="passwordInput" class="mail" placeholder="Password" required>
+                <p id="passwordError" class="error"></p>
+            </div>
+            <div class="div">
+                Confirm Password <br><input type="password" id="confirmPasswordInput" class="mail" placeholder="Confirm Password" required>
+                <p id="confirmPasswordError" class="error"></p>
+            </div>
+            <div class="check">
+                <input type="checkbox" id="termsCheckbox" required> You accept our Terms and Conditions and Privacy Policy
+                <p id="termsError" class="error"></p>
+            </div> 
+            <button id="registers">Register now</button>  
+            <div class="group">
+                <p>Already have an account?</p>
+                <a href="login.html" id="group">Login</a>
+            </div>
+        </div>    
+    </div>
+    
+    
+<script src="signup.js"></script>       
+</body>
+</html>

@@ -1,0 +1,973 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    overflow-x: hidden;
+}
+html{
+    scroll-behavior: smooth;
+}
+.loc h4{
+    font-size: 25px;
+    color: white;
+}
+.loc h5{
+    font-size: 13px;
+    font-weight: 300;
+    color: white;
+
+}
+.loc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.nav1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.nav2 h4{
+    font-size: 25px; 
+    color: white;
+ 
+}
+.nav2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.navbar{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 700px;
+    background-color: black;
+}
+/* ================================navbar======================================================== */
+.icons h4{
+    font-size: 25px;
+    color: white;
+ 
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px; 
+    color: white;
+
+}
+.links a{
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    color: white;
+
+}
+.links h1{
+    font-size: 50px;
+    font-family: "Bodoni Moda";
+    font-weight: 450;
+    color: white;
+
+}
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px; 
+}
+.banner-navbar button{
+    width: 150px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255); 
+}
+.banner-navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    gap: 100px;
+    transition: 0.3s;
+    position: fixed; /* Added */
+    top: 50px; /* Added */
+    z-index: 999; /
+}
+.banner-navbar:hover{
+    background-color: black;
+    height: 100px;
+}
+.banner-navbar.scrolled {
+    background-color: rgb(255, 255, 255);
+    top: 0 !important; 
+}
+
+.banner-navbar a {
+    color: rgb(255, 255, 255); /* Default link color */
+}
+
+.banner-navbar.scrolled a {
+    color: rgb(0, 0, 0); /* Change the link color when scrolled */
+}
+.banner-navbar h4 {
+    color: rgb(255, 255, 255); /* Default link color */
+}
+
+.banner-navbar.scrolled h4 {
+    color: rgb(0, 0, 0); /* Change the link color when scrolled */
+}
+.banner-navbar h1 {
+    color: rgb(255, 255, 255); /* Default link color */
+}
+
+.banner-navbar.scrolled h1 {
+    color: rgb(0, 0, 0); /* Change the link color when scrolled */
+}
+.banner-navbar button {
+    color: rgb(255, 255, 255); /* Default link color */
+}
+
+.banner-navbar.scrolled button{
+    color: rgb(0, 0, 0);
+    border:1px solid black; /* Change the link color when scrolled */
+}
+
+/* =====================================banner_navber================================= */
+.banner_head h4{
+    font-size: 20px;
+    color: white;
+}
+.banner_head h1{
+    font-size: 80px;
+    font-family: "Bodoni Moda";
+    font-weight: 450;
+    color: rgb(255, 255, 255);
+}
+.banner_head button{
+    width: 150px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255); 
+}
+.banner_head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 300px;
+    gap: 30px;
+}
+/* ===========================banner_head========================================= */
+.banner_wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    position: absolute;
+    width: 100%;
+    margin-bottom:150px;
+    gap: 300px;
+   
+}
+.banner img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    filter: brightness(0.5);
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    position: relative; 
+
+}
+/* =================================================banner=============================================================== */
+.icons1 h4{
+    font-size: 20px;
+    color: rgb(225, 189, 11);
+ 
+}
+.icons1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px; 
+}
+
+.section1_details h5{
+    font-size: 15px;
+    font-weight: 200;
+    color: rgb(174, 146, 7);
+}
+.section1_details h2{
+    font-size: 60px;
+    font-family: "Bodoni Moda";
+    font-weight: 200;text-align: center;
+
+}
+.section1_details p{
+    width: 500px;
+    font-weight: 100;
+    line-height: 2rem;
+    color: rgb(49, 49, 49);
+}
+.section1_details button{
+    width: 150px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(223, 135, 4);
+    border: 1px solid rgb(245, 149, 4);
+}
+.section1_details{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 20px;
+}
+.section_wrap{
+    width: 900px;
+    height: 750px;
+    background-color: rgb(247, 247, 247);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* =========================.section1_details================================ */
+.img1{
+    width: 900px;
+    height: 750px;
+}
+.img2{
+    width: 300px;
+    height: 100px;
+    margin-left: 100px;
+}
+.section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* ==================================section1================================================== */
+.image_group img{
+    width: 150px;
+    height: 50px;
+}
+.image_group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+.section2 h3{
+    font-size: 15px;
+    color: rgb(148, 70, 3);
+    font-weight: 300;
+}
+.section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    width: 100%;
+    height: 150px;
+    gap: 30px;
+}
+/* ==================================================section2========================================================== */
+
+
+.property{
+    width: 400px;
+    background-color: white;
+    border: 1px solid rgb(238, 238, 238);
+    padding-bottom: 25px;
+    
+}
+
+.property img{
+    width: 400px;
+    height: 220px;
+    object-fit: cover;
+    overflow: hidden;
+    transition: 0.3s;
+}
+.property img:hover{
+    transform: scale(1.1);
+}
+
+
+.property h4{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-weight: 500;
+    color: #00c194;
+    font-size: 15px;
+}
+
+.property h3{
+    font-weight: 600;
+    font-size: 21px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.property h2{
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 25px;
+    margin-left: 10px;
+    opacity: 0.8;
+}
+.detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -100px;
+    gap: 10px; 
+}
+.section3_wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+/* =========================.section3_wrap======================================= */
+.section3_head h3{
+    font-size: 15px;
+    color: rgb(148, 70, 3);
+    font-weight: 300;
+}
+.section3_head h1{
+    font-size: 60px;
+    font-family: "Bodoni Moda";
+    font-weight: 200;
+}
+.section3_head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.section3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 90vh;
+    gap: 50px;
+    background-color: rgb(248, 248, 248);
+}
+/* =================================================================.section3================================== */
+.star h5{
+    font-size: 20px;
+    color: rgb(196, 110, 5);
+}
+.star{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.cards p{
+    width: 350px;
+    font-size: 15px;
+    font-weight: 100;
+    text-decoration: wavy;
+    line-height: 2rem;
+    color: rgb(71, 70, 70);
+    text-align: center;
+}
+.cards h3{
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    width: 400px;
+    height: 500px;
+    gap: 30px;
+    border: 1px solid rgb(196, 110, 5);
+}
+.section4_card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.section4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 70px;
+    width: 100%;
+    height: 120vh;
+}
+/* =============================================.section4================================================= */
+.section5_head h3{
+    font-size: 15px;
+    color: rgb(148, 70, 3);
+    font-weight: 300;
+}
+.section5_head h1{
+    font-size: 60px;
+    font-family: "Bodoni Moda";
+    font-weight: 200;
+}
+.section5_head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.section5_images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.img_head img{
+    width: 425px;
+    height: 300px;
+    filter: brightness(0.8);
+    transition: 0.3s;
+    overflow: hidden;
+    object-fit: cover;
+}
+.img_head img:hover{
+    transform: scale(1.07);
+}
+.img_head h1{
+    font-size: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    color: white;
+    font-style: italic;
+    font-weight: 600;
+}
+.img_head{
+    width: 425px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+.img_group_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 130vh;
+    background-color: rgb(249, 249, 249);
+    gap: 50px;
+    flex-direction: column;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .hamburger-icon {
+    width: 20px;
+    height: 2px;
+    background-color: #333;
+    margin: 4px;
+  }
+  .hamburger-panel {
+    width: 0;
+    height: 100vh;
+    background-color: #f1f1f1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.3s;
+    z-index: 9999;
+  }
+  
+  .hamburger-panel a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .show-panel {
+    width: 200px;
+  }
+    
+/* ====================================section4================ */
+
+@media only screen and (max-width:765px){
+    .navbar{
+        display: none;
+    }
+    .icons h4{
+        display: none;
+     
+    }
+    .icons{
+        display: none;
+    
+    }
+    .links {
+        display: flex;
+      }
+    
+      .hamburger {
+        display: block;
+      }
+    .links a{
+        display: none;
+    
+    }
+    .links h1{
+        font-size: 50px;
+        font-family: "Bodoni Moda";
+        font-weight: 450;
+        color: white;
+        margin-left: 20px;
+        display: flex;
+    }
+    .links{
+        /* display: none; */
+    }
+    .banner-navbar button{
+        display: none;
+    }
+    .banner-navbar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 70px;
+        gap: 100px;
+        transition: 0.3s;
+        position: fixed; /* Added */
+        top: 0; /* Added */
+        z-index: 999; /
+    }
+    .banner-navbar:hover{
+        background-color: rgb(255, 255, 255);
+        height: 70px;
+    }
+    .banner-navbar.scrolled {
+        background-color: rgb(255, 255, 255);
+        border-bottom: 1px solid wheat;
+        top: 0 !important; 
+    }
+    
+    .banner-navbar a {
+        color: rgb(255, 255, 255); /* Default link color */
+    }
+    
+    .banner-navbar.scrolled a {
+        color: rgb(0, 0, 0); /* Change the link color when scrolled */
+    }
+    .banner-navbar h4 {
+        color: rgb(255, 255, 255); /* Default link color */
+    }
+    
+    .banner-navbar.scrolled h4 {
+        color: rgb(0, 0, 0); /* Change the link color when scrolled */
+    }
+    .banner-navbar h1 {
+        color: rgb(255, 255, 255); /* Default link color */
+    }
+    
+    .banner-navbar.scrolled h1 {
+        display: flex !important;
+        color: rgb(0, 0, 0); /* Change the link color when scrolled */
+    }
+    .banner-navbar button {
+        color: rgb(255, 255, 255); /* Default link color */
+    }
+    
+    .banner-navbar.scrolled button{
+        color: rgb(0, 0, 0);
+        border:1px solid black; /* Change the link color when scrolled */
+    }
+    
+    /* ---------------------------------------- */
+    .banner_head h4{
+        font-size: 17px;
+        color: white;
+    }
+    .banner_head h1{
+        font-size: 50px;
+        font-family: "Bodoni Moda";
+        font-weight: 450;
+        color: rgb(255, 255, 255);
+    }
+    .banner_head button{
+        width: 150px;
+        height: 50px;
+        background-color: rgba(255, 255, 255, 0);
+        color: rgb(255, 255, 255);
+        border: 1px solid rgb(255, 255, 255); 
+    }
+    .banner_head{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 300px;
+        gap: 30px;
+    }
+    /* --------------------------------------- */
+    .section1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .img1{
+        width: 800px;
+        height: 750px;
+    }
+
+    .icons1 h4{
+        font-size: 20px;
+        color: rgb(225, 189, 11);
+     
+    }
+    .icons1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px; 
+    }
+    
+    .section1_details h5{
+        font-size: 15px;
+        font-weight: 200;
+        color: rgb(174, 146, 7);
+    }
+    .section1_details h2{
+        font-size: 50px;
+        font-family: "Bodoni Moda";
+        font-weight: 200;
+    
+    }
+    .section1_details p{
+        width: 400px;
+        font-weight: 100;
+        line-height: 2rem;
+        color: rgb(49, 49, 49);
+    }
+    .section1_details button{
+        width: 150px;
+        height: 50px;
+        background-color: rgba(255, 255, 255, 0);
+        color: rgb(223, 135, 4);
+        border: 1px solid rgb(245, 149, 4);
+    }
+    .section_wrap{
+        width: 800px;
+        height: 750px;
+        background-color: rgb(247, 247, 247);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+    }
+    /* ------------------------------------------------- */
+    .image_group img{
+        width: 150px;
+        height: 50px;
+    }
+    .image_group{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .section2 h3{
+        font-size: 15px;
+        color: rgb(148, 70, 3);
+        font-weight: 300;
+    }
+    .section2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column; 
+        width: 100%;
+        height: 70vh;
+        gap: 30px;
+    }
+    /* ----------------------------------------- */
+    .property{
+        width: 350px;
+        background-color: white;
+        border: 1px solid rgb(238, 238, 238);
+        padding-bottom: 25px;
+        
+    }
+    
+    .property img{
+        width: 350px;
+        height: 200px;
+        object-fit: cover;
+        overflow: hidden;
+        transition: 0.3s;
+    }
+    .property img:hover{
+        transform: scale(1.1);
+    }
+    
+    
+    .property h4{
+        margin-top: 10px;
+        margin-left: 20px;
+        font-weight: 500;
+        color: #00c194;
+        font-size: 15px;
+    }
+    
+    .property h3{
+        font-weight: 600;
+        font-size: 21px;
+        margin-left: 20px;
+        margin-top: 15px;
+    }
+    .property h2{
+        font-weight: 500;
+        font-size: 14px;
+        margin-top: 25px;
+        margin-left: 10px;
+        opacity: 0.8;
+    }
+    .detail{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -50px;
+        gap: 10px; 
+    }
+    .section3_wrap{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 50px;
+    }
+    /* =========================.section3_wrap======================================= */
+    .section3_head h3{
+        font-size: 15px;
+        color: rgb(148, 70, 3);
+        font-weight: 300;
+    }
+    .section3_head h1{
+        font-size: 45px;
+        font-family: "Bodoni Moda";
+        font-weight: 200;
+        /* width: 300px; */
+        margin-left: 100px;
+    }
+    .section3_head{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .section3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 230vh;
+        gap: 30px;
+        background-color: rgb(251, 251, 251);
+    }
+    /* ------------------------------------------------ */
+    .section4_head h3{
+        font-size: 15px;
+        color: rgb(148, 70, 3);
+        font-weight: 300;
+    }
+    .section4_head h1{
+        font-size: 35px;
+        font-family: "Bodoni Moda";
+        font-weight: 200;
+    }
+    .section4_head{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .star h5{
+        font-size: 20px;
+        color: rgb(196, 110, 5);
+    }
+    .star{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .cards p{
+        width: 280px;
+        font-size: 12px;
+        font-weight: 100;
+        text-decoration: wavy;
+        line-height: 2rem;
+        color: rgb(71, 70, 70);
+        text-align: center;
+    }
+    .cards h3{
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 20px;
+    }
+    .cards{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column; 
+        width: 350px;
+        height: 450px;
+        gap: 30px;
+        border: 1px solid rgb(196, 110, 5);
+    }
+    .section4_card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .section4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 50px;
+        width: 100%;
+        height: 240vh;
+    }
+    /* ---------------------------------------------- */
+    .section5_head h3{
+        font-size: 15px;
+        color: rgb(148, 70, 3);
+        font-weight: 300;
+    }
+    .section5_head h1{
+        font-size: 40px;
+        font-family: "Bodoni Moda";
+        font-weight: 200;
+    }
+    .section5_head{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .section5_images{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .img_head img{
+        width:400px;
+        height: 300px;
+        filter: brightness(0.8);
+        transition: 0.3s;
+        overflow: hidden;
+        object-fit: cover;
+    }
+    .img_head img:hover{
+        transform: scale(1.07);
+    }
+    .img_head h1{
+        font-size: 40px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        position: absolute;
+        color: white;
+        font-style: italic;
+        font-weight: 600;
+    }
+    .img_head{
+        width:400px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        overflow: hidden;
+    }
+    .img_group_1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .section5{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 300vh;
+        background-color: rgb(249, 249, 249);
+        gap: 50px;
+        flex-direction: column;
+    }
+
+
+    
+}
+
+
+.slider {
+  width: 100%;
+  overflow: hidden;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.slides img {
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+  margin-bottom: 50px;
+}
